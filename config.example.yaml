@@ -1,0 +1,17 @@
+# Copy this file to config.yaml and fill in your credentials.
+# config.yaml is gitignored — never commit it.
+
+# Provider options: claude | gemini | ollama
+provider: gemini
+
+# API key for the chosen provider.
+# Claude  → https://console.anthropic.com/
+# Gemini  → https://aistudio.google.com/app/apikey
+# Ollama  → leave blank (runs locally, no key needed)
+api_key: YOUR_API_KEY_HERE
+
+# Model name for the chosen provider.
+# Claude examples : claude-sonnet-4-6, claude-haiku-4-5-20251001
+# Gemini examples : gemini-2.5-flash, gemini-2.0-flash
+# Ollama examples : llama3.2, mistral, phi3
+model: gemini-2.5-flash
