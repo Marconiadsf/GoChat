@@ -1,0 +1,15 @@
+# binaries
+GoChat
+gochat
+
+# config with real API keys — use config.example.yaml as template
+config.yaml
+
+# Go build cache
+*.test
+*.out
+
+# editor
+.vscode/
+.idea/
+*.swp
