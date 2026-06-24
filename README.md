@@ -7,6 +7,7 @@ Built as a Go learning project, exploring idiomatic patterns and standard librar
 ## What this covers
 
 - Implicit interfaces (`Provider` satisfied by `Claude`, `Gemini`, `Ollama`)
+- Dependency inversion — `llm` defines the contract; `main` wires concrete adapters (composition root / Ports & Adapters)
 - Structs and methods
 - Idiomatic error handling
 - Native HTTP client (`net/http`)
